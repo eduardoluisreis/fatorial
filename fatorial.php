@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     if ($n !== false) {
         // Se a entrada for válida, exibe o resultado
-        echo "<div class='result'>O fatorial de $n é => " . fatorial($n) . "</div>";
+        echo "<div class='result'>O fatorial de $n é = " . fatorial($n) . "</div>";
     } else {
         // Se a entrada não for válida, exibe uma mensagem de erro
         echo "<div class='error'>Por favor, insira um número inteiro válido.</div>";
