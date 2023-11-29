@@ -21,7 +21,9 @@
                 <input type="text" name="fatorial" id="fatorial" required step="any" placeholder="Entre com um número inteiro">
                 <br>
                 <button type="submit">Calcular</button>
+
                 <?php include("fatorial.php"); ?>
+
             </form>
         </div>
         <div class="descricao">
